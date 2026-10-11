@@ -65,12 +65,38 @@ export const marketingServices: { title: string; icon: LucideIcon }[] = [
 ];
 
 export const generalFaqs: { q: string; a: string }[] = [
-  { q: "What services does Techscalify offer?", a: "We offer software development, web and mobile app development, UI/UX design, cloud & DevOps, API and backend development, e-commerce, software integration, IT consulting, IT support & maintenance, digital marketing and SEO." },
-  { q: "Do you work with international clients?", a: "Yes. We work with businesses in India and internationally, collaborating remotely across time zones with regular video calls and shared project boards." },
-  { q: "How do you price projects?", a: "Fixed-scope projects are priced after a discovery call so estimates are realistic. Ongoing work such as support, marketing or dedicated development is offered as a monthly engagement." },
-  { q: "How do we get started?", a: "Book a free consultation or send us an inquiry. We'll discuss your goals, then share a proposal with scope, timeline and cost." },
-  { q: "Will we own the code and designs?", a: "Yes. On completion and settlement, all source code, designs and project assets belong to you." },
-  { q: "Do you sign NDAs?", a: "Yes. We're happy to sign a mutual NDA before you share sensitive details about your business or idea." },
+  {
+    q: "What is Techscalify?",
+    a: "Techscalify (also written TechScalify or Tech Scalify) is an IT services and software development company that helps businesses build custom software, websites, mobile apps, cloud solutions, and grow with digital marketing and SEO.",
+  },
+  {
+    q: "What services does Techscalify offer?",
+    a: "Techscalify offers software development, web and mobile app development, UI/UX design, cloud & DevOps, API and backend development, e-commerce, software integration, IT consulting, IT support & maintenance, digital marketing and SEO.",
+  },
+  {
+    q: "Where is Techscalify based?",
+    a: "Techscalify is based in India and serves clients worldwide. We collaborate remotely across time zones with regular video calls and shared project boards.",
+  },
+  {
+    q: "Do you work with international clients?",
+    a: "Yes. We work with businesses in India and internationally, collaborating remotely across time zones with regular video calls and shared project boards.",
+  },
+  {
+    q: "How do you price projects?",
+    a: "Fixed-scope projects are priced after a discovery call so estimates are realistic. Ongoing work such as support, marketing or dedicated development is offered as a monthly engagement.",
+  },
+  {
+    q: "How do we get started with Techscalify?",
+    a: "Book a free consultation or send us an inquiry via the Contact page. We'll discuss your goals, then share a proposal with scope, timeline and cost.",
+  },
+  {
+    q: "Will we own the code and designs?",
+    a: "Yes. On completion and settlement, all source code, designs and project assets belong to you.",
+  },
+  {
+    q: "Do you sign NDAs?",
+    a: "Yes. We're happy to sign a mutual NDA before you share sensitive details about your business or idea.",
+  },
 ];
 
 /**

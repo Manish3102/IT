@@ -8,13 +8,21 @@ import { Reveal } from "@/components/ui/Reveal";
 import { ButtonLink } from "@/components/ui/Button";
 import { ProcessTimeline } from "@/components/ProcessTimeline";
 import { CTASection } from "@/components/CTASection";
-import { buildMetadata } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
+import { buildMetadata, servicesItemListJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "IT Services",
   description:
-    "Explore Techscalify's IT services: software, web and mobile app development, UI/UX design, cloud & DevOps, IT consulting, IT support, digital marketing and SEO.",
+    "Explore Techscalify IT services: software, web and mobile app development, UI/UX design, cloud & DevOps, IT consulting, IT support, digital marketing and SEO.",
   path: "/services",
+  keywords: [
+    "Techscalify services",
+    "IT services Techscalify",
+    "software development services",
+    "web development services India",
+    "SEO services",
+  ],
 });
 
 const order: ServiceCategory[] = ["development", "technology", "growth"];
@@ -27,6 +35,7 @@ const blurbs: Record<ServiceCategory, string> = {
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd data={servicesItemListJsonLd()} />
       <PageHero
         eyebrow="Services"
         title={

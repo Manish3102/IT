@@ -8,13 +8,15 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { StatsSection } from "@/components/StatsSection";
 import { TechnologyGrid } from "@/components/TechnologyGrid";
 import { CTASection } from "@/components/CTASection";
-import { buildMetadata } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
+import { aboutPageJsonLd, buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "About Us",
   description:
-    "Techscalify is an IT services and software development company helping businesses turn ideas into reliable, scalable digital products. Learn about our mission, values and approach.",
+    "About Techscalify — an IT services and software development company helping businesses turn ideas into reliable, scalable digital products. Mission, values and approach.",
   path: "/about",
+  keywords: ["About Techscalify", "Techscalify company", "TechScalify", "IT company India", "software development company"],
 });
 
 const values = [
@@ -43,6 +45,7 @@ const story = [
 export default function AboutPage() {
   return (
     <>
+      <JsonLd data={aboutPageJsonLd()} />
       <PageHero
         eyebrow="About Techscalify"
         title={

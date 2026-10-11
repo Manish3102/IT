@@ -8,13 +8,14 @@ import { FAQ } from "@/components/FAQ";
 import { JsonLd } from "@/components/JsonLd";
 import { generalFaqs } from "@/data/content";
 import { siteConfig } from "@/lib/site";
-import { buildMetadata, faqJsonLd } from "@/lib/seo";
+import { buildMetadata, contactPageJsonLd, faqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact Us",
   description:
-    "Have an idea, project or business challenge? Contact Techscalify for software development, web and mobile apps, cloud, IT consulting, digital marketing and SEO. Book a free consultation.",
+    "Contact Techscalify for software development, web and mobile apps, cloud, IT consulting, digital marketing and SEO. Book a free consultation — we usually reply within one business day.",
   path: "/contact",
+  keywords: ["Contact Techscalify", "Techscalify email", "hire Techscalify", "IT consultation India"],
 });
 
 const info = [
@@ -52,7 +53,7 @@ function ReachVisual() {
 export default function ContactPage() {
   return (
     <>
-      <JsonLd data={faqJsonLd(generalFaqs)} />
+      <JsonLd data={[contactPageJsonLd(), faqJsonLd(generalFaqs)]} />
       <PageHero
         eyebrow="Contact"
         title={

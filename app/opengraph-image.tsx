@@ -27,7 +27,7 @@ export default async function OgImage() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={src} width={84} height={84} alt="" />
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ fontSize: 40, fontWeight: 800, letterSpacing: -1 }}>TECH SCALIFY</span>
+            <span style={{ fontSize: 40, fontWeight: 800, letterSpacing: -1 }}>TECHSCALIFY</span>
             <span style={{ fontSize: 18, letterSpacing: 8, color: "rgba(255,255,255,0.6)" }}>IT SERVICES</span>
           </div>
         </div>

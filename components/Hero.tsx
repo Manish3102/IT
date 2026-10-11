@@ -18,17 +18,17 @@ export function Hero() {
       <Container className="grid items-center gap-14 lg:grid-cols-[1.05fr_1fr] lg:gap-10">
         <div>
           <Reveal>
-            <Eyebrow dark>IT Services & Software Development</Eyebrow>
+            <Eyebrow dark>Techscalify · IT Services & Software Development</Eyebrow>
           </Reveal>
           <Reveal delay={0.05}>
             <h1 className="mt-6 text-[2.5rem] font-semibold leading-[1.06] sm:text-6xl lg:text-[4.1rem]">
-              Transforming Ideas Into <span className="text-gradient">Powerful Digital Solutions</span>
+              Techscalify — Transforming Ideas Into <span className="text-gradient">Powerful Digital Solutions</span>
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/70">
-              Techscalify helps businesses build, scale, and grow with modern software development, web and mobile applications,
-              cloud solutions, digital marketing, and technology consulting.
+              Techscalify is your IT services partner for custom software development, web and mobile apps, cloud & DevOps,
+              digital marketing, and SEO — helping businesses in India and worldwide build, scale, and grow.
             </p>
           </Reveal>
           <Reveal delay={0.18} className="mt-9 flex flex-col gap-3 sm:flex-row">

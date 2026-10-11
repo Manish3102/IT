@@ -28,7 +28,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { service } = await params;
   const s = getService(service);
   if (!s) return {};
-  return buildMetadata({ title: s.title, description: s.metaDescription, path: `/${s.slug}` });
+  return buildMetadata({
+    title: `${s.title} Services`,
+    description: s.metaDescription,
+    path: `/${s.slug}`,
+    keywords: [s.title, `${s.title} Techscalify`, `${s.title} company India`, "Techscalify", ...siteConfig.keywords.slice(0, 8)],
+  });
 }
 
 export default async function ServicePage({ params }: Props) {
