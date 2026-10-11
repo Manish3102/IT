@@ -18,7 +18,7 @@ export const siteConfig = {
   socials: {
     linkedin: "https://www.linkedin.com/company/techscalify/",
     instagram: "https://www.instagram.com/techscalify/",
-    facebook: "#", // TODO
+    facebook: "https://www.facebook.com/profile.php?id=61595448803907",
     youtube: "#", // TODO
   },
 } as const;
