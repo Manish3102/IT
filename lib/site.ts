@@ -16,8 +16,8 @@ export const siteConfig = {
   hours: "Mon – Sat, 10:00 AM – 7:00 PM IST", // TODO: confirm business hours
   consultationUrl: "/contact#consultation", // TODO: swap for Calendly / Cal.com link if you use one
   socials: {
-    linkedin: "#", // TODO
-    instagram: "#", // TODO
+    linkedin: "https://www.linkedin.com/company/techscalify/",
+    instagram: "https://www.instagram.com/techscalify/",
     facebook: "#", // TODO
     youtube: "#", // TODO
   },
